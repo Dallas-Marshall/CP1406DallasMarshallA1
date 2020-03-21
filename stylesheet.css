@@ -1,0 +1,59 @@
+body {
+    margin-bottom: 100px;
+    margin-top: 25px;
+}
+
+.top_bar {
+    text-align: center;
+    min-height: 100px;
+    overflow: hidden;
+    margin-right: 5%;
+    margin-left: 5%;
+    /*padding-top: 20px;*/
+}
+
+#top_navigation a {
+    color: #1B3022;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    padding-right: 20px;
+    padding-left: 20px;
+    float: left;
+}
+
+#social_icons a {
+    float: right;
+    padding: 0;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+.top_bar a:hover {
+    background-color: #EAEAEA;
+}
+
+.top_bar a.active {
+    background-color: #D1CABA;
+    border-radius: 15px;
+}
+
+.top_bar h1, h2 {
+    font-family: "Bookman Old Style", serif;
+    color: #1B3022;
+}
+
+.top_bar img {
+    float: right;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+#header_break {
+    border: 1px solid #394648;
+}
