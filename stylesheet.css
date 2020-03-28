@@ -1,25 +1,21 @@
 body {
-    margin-bottom: 100px;
-    margin-top: 25px;
+    margin: 10px 5%;
+    /*margin-bottom: 100px;*/
+    font-family: "Bookman Old Style", serif;
 }
 
-.top_bar {
-    text-align: center;
-    min-height: 100px;
-    overflow: hidden;
-    margin-right: 5%;
-    margin-left: 5%;
-    /*padding-top: 20px;*/
+
+/*since navigation is shorter (height wise) than the rest of the header, must be set further from the top*/
+.navigation {
+    padding-top: 15px;
 }
 
-#top_navigation a {
-    color: #1B3022;
+.navigation a {
+    color: #413A32;
     text-align: center;
     text-decoration: none;
-    font-size: large;
-    padding-right: 20px;
-    padding-left: 20px;
-    float: left;
+    font-size: x-large;
+    padding: 0 5%;
 }
 
 #social_icons a {
@@ -29,31 +25,50 @@ body {
 
 #logo a {
     text-decoration: none;
+    float: left;
 }
 
-.top_bar a:hover {
-    background-color: #EAEAEA;
+a:hover {
+    background-color: #b29d89;
+    border-radius: 15px;
 }
 
-.top_bar a.active {
+a.active {
     background-color: #D1CABA;
     border-radius: 15px;
 }
 
-.top_bar h1, h2 {
-    font-family: "Bookman Old Style", serif;
-    color: #1B3022;
+#logo h1 {
+    font-size: 50px;
+    margin: 0 0 0;
+    color: darkgreen;
 }
 
-.top_bar img {
-    float: right;
-}
-
-.column {
+/*float the columns in line with each other left - right*/
+.top_bar_column {
     float: left;
     width: 33.33%;
 }
 
 #header_break {
     border: 1px solid #394648;
+    margin-bottom: 5px;
+}
+
+.footer a {
+    color: #413A32;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #D1CABA;
+    color: #413A32;
 }
