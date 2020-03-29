@@ -1,6 +1,8 @@
 body {
-    margin: 10px 5%;
-    /*margin-bottom: 100px;*/
+    margin-top: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 400px;
     font-family: "Bookman Old Style", serif;
 }
 
@@ -53,6 +55,56 @@ a.active {
 #header_break {
     border: 1px solid #394648;
     margin-bottom: 5px;
+}
+
+
+
+
+
+
+.background_image {
+    min-height: 60vh;
+    background-image: url("bakery_display.jpg");
+    /*https://www.pexels.com/photo/donuts-and-bagel-display-205961/*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+.specials_signup {
+    width: 33.33%;
+    text-align: center;
+    float: left;
+}
+
+.specials_signup img {
+    padding-top: 10px;
+}
+
+.specials_signup p {
+    font-size: 50px;
+    color: #394648;
+    margin: 10px;
+}
+
+.specials_signup input {
+    margin-bottom: 5px;
+}
+
+
+.reviews {
+    width: 66.66%;
+    float: right;
+    text-align: center;
+}
+
+.reviews p {
+    font-size: xx-large;
 }
 
 .footer a {
