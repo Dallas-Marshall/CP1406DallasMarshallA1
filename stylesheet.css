@@ -1,9 +1,7 @@
 body {
-    margin-top: 10px;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 400px;
+    margin: 10px 5%;
     font-family: "Bookman Old Style", serif;
+    color: #413A32;
 }
 
 
@@ -16,7 +14,7 @@ body {
     color: #413A32;
     text-align: center;
     text-decoration: none;
-    font-size: x-large;
+    font-size: 22px;
     padding: 0 5%;
 }
 
@@ -30,7 +28,7 @@ body {
     float: left;
 }
 
-a:hover {
+.top_bar_column a:hover {
     background-color: #b29d89;
     border-radius: 15px;
 }
@@ -46,7 +44,6 @@ a.active {
     color: darkgreen;
 }
 
-/*float the columns in line with each other left - right*/
 .top_bar_column {
     float: left;
     width: 33.33%;
@@ -58,10 +55,6 @@ a.active {
 }
 
 
-
-
-
-
 .background_image {
     min-height: 60vh;
     background-image: url("bakery_display.jpg");
@@ -71,39 +64,35 @@ a.active {
     background-size: cover;
 }
 
-
-
-
-
-
-.specials_signup {
+.specials_signup_column {
     width: 33.33%;
     text-align: center;
     float: left;
+    margin-bottom: 50px;
 }
 
-.specials_signup img {
+.specials_signup_column img {
     padding-top: 10px;
 }
 
-.specials_signup p {
+.specials_signup_column h1 {
     font-size: 50px;
-    color: #394648;
-    margin: 10px;
+    color: #413A32;
+    margin: 0;
 }
 
-.specials_signup input {
+.specials_signup_column input {
     margin-bottom: 5px;
 }
 
 
-.reviews {
+.reviews_column {
     width: 66.66%;
     float: right;
     text-align: center;
 }
 
-.reviews p {
+.reviews_column p {
     font-size: xx-large;
 }
 
@@ -114,6 +103,12 @@ a.active {
     text-decoration: none;
 }
 
+.footer a:hover {
+    background-color: #b29d89;
+    border-radius: 15px;
+}
+
+
 .footer {
     position: fixed;
     left: 0;
@@ -122,5 +117,21 @@ a.active {
     width: 100%;
     text-align: center;
     background-color: #D1CABA;
+    color: #413A32;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    height: 350px;
+}
+
+.column a {
+    text-decoration: none;
+    color: #413A32;
+}
+
+.column a:visited {
     color: #413A32;
 }
