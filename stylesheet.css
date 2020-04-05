@@ -71,10 +71,6 @@ a.active {
     margin-bottom: 50px;
 }
 
-.specials_signup_column img {
-    padding-top: 10px;
-}
-
 .specials_signup_column h1 {
     font-size: 50px;
     color: #413A32;
@@ -134,4 +130,29 @@ a.active {
 
 .column a:visited {
     color: #413A32;
+}
+
+.title {
+    text-align: center;
+    color: darkgreen;
+    font-size: 75px;
+}
+
+.display_text {
+    font-size: 50px;
+    text-align: center;
+}
+
+.display_text b {
+    color: darkgreen;
+}
+
+.specials_signup {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+.specials_signup input {
+    margin-bottom: 5px;
 }
