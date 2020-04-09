@@ -1,5 +1,5 @@
 body {
-    margin: 10px 5%;
+    margin: 10px 5% 50px;
     font-family: "Bookman Old Style", serif;
     color: #413A32;
 }
@@ -14,7 +14,7 @@ body {
     color: #413A32;
     text-align: center;
     text-decoration: none;
-    font-size: 22px;
+    font-size: medium;
     padding: 0 5%;
 }
 
@@ -57,7 +57,7 @@ a.active {
 
 .background_image {
     min-height: 60vh;
-    background-image: url("bakery_display.jpg");
+    background-image: url("images/bakery_display.jpg");
     /*https://www.pexels.com/photo/donuts-and-bagel-display-205961/*/
     background-position: center;
     background-repeat: no-repeat;
